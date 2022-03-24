@@ -1,0 +1,63 @@
+Success! Created nextjs-netlify at E:\Next.js\nextjs-netlify
+Inside that directory, you can run several commands:
+
+  npm run dev
+    Starts the development server.
+
+  npm run build
+    Builds the app for production.
+
+  npm start
+    Runs the built app in production mode.
+
+We suggest that you begin by typing:
+
+  cd nextjs-netlify
+  npm run dev
+
+
+agusls@DESKTOP-0NLCVON MINGW64 /e/Next.js
+$ cd nextjs-netlify
+
+agusls@DESKTOP-0NLCVON MINGW64 /e/Next.js/nextjs-netlify (main)
+$ npm run dev
+
+> my-app@0.1.1 dev E:\Next.js\nextjs-netlify
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - Using webpack 4. Reason: future.webpack5 option not enabled https://nextjs.org/docs/messages/webpack5
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+event - compiled successfully
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+event - build page: /
+wait  - compiling...
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+event - compiled successfully
+event - build page: /posts
+wait  - compiling...
+event - compiled successfully
+event - build page: /posts/[post]
+wait  - compiling...
+event - compiled successfully
+event - build page: /
+wait  - compiling...
+event - compiled successfully
+
