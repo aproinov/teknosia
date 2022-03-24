@@ -17,4 +17,8 @@ declare module "*.yml" {
   const value: any;
   export default value;
 }
-declare module '*.css';
+// declaration.d.ts
+declare module '*.scss' {
+  const content: Record<string, string>;
+  export default content;
+}
