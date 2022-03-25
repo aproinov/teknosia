@@ -14,10 +14,10 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            welcome on <span className="fancy">{config.site_title}</span>
+            Welcome on <span className="fancy">{config.site_title}</span>
           </h1>
           <span className="handle">{config.twitter_account}</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <h2>Mengulas beragam aplikasi dan tutorial sesuai trend saat ini</h2>
           <ShareList url={`/`} text={config.site_title} />
         </div>
       </div>
