@@ -1,21 +1,21 @@
 {
-  "base_url": "https://agusls.netlify.app",
-  "site_title": "Agusls Blog",
-  "site_description": "Personal Blog for Netlify",
+  "base_url": "https://teknosia.netlify.app",
+  "site_title": "Teknosia Blog",
+  "site_description": "Personal Blog perihal Teknologi dan Aplikasi Terkini",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "Tutorial"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "Text to speech"
     },
     {
-      "keyword": "React"
+      "keyword": "Aplikasi"
     },
     {
-      "keyword": "Agusls"
+      "keyword": "Android"
     }
   ],
-  "posts_per_page": 5,
-  "twitter_account": "@agusls"
+  "posts_per_page": 10,
+  "twitter_account": "@karinov"
 }
