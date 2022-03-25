@@ -8,7 +8,7 @@ import BasicMeta from "./meta/BasicMeta";
 import JsonLdMeta from "./meta/JsonLdMeta";
 import OpenGraphMeta from "./meta/OpenGraphMeta";
 import TwitterCardMeta from "./meta/TwitterCardMeta";
-import { SocialList } from "./SocialList";
+import { ShareList } from "./ShareList";
 import TagButton from "./TagButton";
 import { getAuthor } from "../lib/authors";
 import { getTag } from "../lib/tags";
@@ -66,7 +66,7 @@ export default function PostLayout({
             <div className={"metadata"}>
               <div>
                 <Date date={date} />
-              </div>
+              </div>&nbsp;&nbsp;-&nbsp;&nbsp; 
               <div>
                 <Author author={getAuthor(author)} />
               </div>
@@ -82,8 +82,8 @@ export default function PostLayout({
           </ul>
         </article>
         <footer>
-          <div className={"social-list"}>
-            <SocialList />
+          <div className={"share-list"}>
+            <ShareList url={`/posts/${slug}`} text={title} />
           </div>
           <Copyright />
         </footer>
@@ -120,11 +120,12 @@ export default function PostLayout({
               display: inline-block;
               margin-left: 0.5rem;
             }
-            .social-list {
-              margin-top: 3rem;
+            .social-list,
+            .share-list {
+              margin-top: 1rem;
               text-align: center;
+              margin-bottom: 3rem;
             }
-
             @media (min-width: 769px) {
               .container {
                 display: flex;

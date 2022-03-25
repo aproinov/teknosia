@@ -11,3 +11,11 @@ tags:
     name: mdx
   - slug: markdown
     name: markdown
+  - slug: drama
+    name: drama
+  - slug: korean
+    name: korean
+  - slug: mandarin
+    name: mandarin
+  - slug: application
+    name: application

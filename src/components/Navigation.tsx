@@ -33,6 +33,7 @@ export default function Navigation() {
             .container {
               width: 0;
             }
+            
             ul {
               opacity: 0;
               width: 100%;

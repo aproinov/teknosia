@@ -13,6 +13,10 @@ export default function Layout({ children }: Props) {
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="apple-touch-icon" href="/icon.png" />
         <meta name="theme-color" content="#fff" />
+        <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossOrigin="() => {
+                    anonymous
+                }"/>
       </Head>
       <nav>
         <Navigation />
@@ -20,6 +24,9 @@ export default function Layout({ children }: Props) {
       <main>{children}</main>
       <style jsx>
         {`
+          nav {
+            margin-right: 10px;
+          }
           .root {
             display: block;
             padding: 4rem 0;
