@@ -11,7 +11,7 @@ export default function Layout({ children }: Props) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="icon" href="/favicons.ico"></link>
+        <link rel="icon" href="/favicon.ico"></link>
         <link rel="apple-touch-icon" href="/favicon.ico" />
         <meta name="theme-color" content="#fff" />
         <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet" />
