@@ -1,9 +1,9 @@
 export default function Copyright() {
   return (
     <>
-      <p>&copy; 2022 - Teknosia | <span>
+      <p><div>
                         <a href="/privacy">Privacy</a> &nbsp;/&nbsp; <a href="/terms">Terms</a> &nbsp;/&nbsp; <a href="/disclaimer">Disclaimer</a>
-                    </span></p>
+                    </div>&copy; 2022 - Teknosia</p>
       <style jsx>
         {`
           p {
