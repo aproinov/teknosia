@@ -2,8 +2,10 @@ export default function Copyright() {
   return (
     <>
       <p><div>
-                        <a href="/privacy">Privacy</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="/terms">Terms</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; <a href="/disclaimer">Disclaimer</a>
-                    </div><br />&copy; 2022 - Teknosia</p>
+        <a href="/privacy.html">Privacy</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="/terms.html">Terms</a> &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="/disclaimer.html">Disclaimer</a>
+      </div><br />&copy; 2022 - Teknosia</p>
       <style jsx>
         {`
           p {
