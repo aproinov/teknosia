@@ -1,0 +1,21 @@
+{
+  "base_url": "https://teknosia.netlify.app",
+  "site_title": "Teknosia Blog",
+  "site_description": "Personal Blog perihal Teknologi dan Aplikasi Terkini",
+  "site_keywords": [
+    {
+      "keyword": "Tutorial"
+    },
+    {
+      "keyword": "Text to speech"
+    },
+    {
+      "keyword": "Aplikasi"
+    },
+    {
+      "keyword": "Android"
+    }
+  ],
+  "posts_per_page": 3,
+  "twitter_account": "@teknosia_id"
+}

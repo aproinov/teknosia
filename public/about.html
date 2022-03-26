@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charSet="utf-8" class="jsx-81406895" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" class="jsx-81406895" />
+  <link rel="manifest" href="/site.webmanifest" class="jsx-81406895" />
+  <link rel="icon" href="/favicon.ico" class="jsx-81406895" />
+  <link rel="apple-touch-icon" href="/favicon.ico" class="jsx-81406895" />
+  <meta name="theme-color" content="#fff" class="jsx-81406895" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+    rel="stylesheet" class="jsx-81406895" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="() =&gt; { anonymous }" class="jsx-81406895" />
+  <title>Teknosia Blog</title>
+  <meta name="description" content="Personal Blog perihal Teknologi dan Aplikasi Terkini" />
+  <meta name="keywords" content="Tutorial,Text to speech,Aplikasi,Android" />
+  <link rel="canonical" href="https://teknosia.netlify.app/" />
+  <meta property="og:site_name" content="Teknosia Blog" />
+  <meta property="og:url" content="https://teknosia.netlify.app/" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="Personal Blog perihal Teknologi dan Aplikasi Terkini" />
+  <meta property="og:image" content="https://teknosia.netlify.app/og_image.png" />
+  <meta property="og:type" content="article" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@teknosia_id" />
+  <meta property="twitter:url" content="https://teknosia.netlify.app/" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="Personal Blog perihal Teknologi dan Aplikasi Terkini" />
+  <meta name="next-head-count" content="23" />
+  <link rel="preload" href="/styles/static.css" as="style" />
+  <link rel="stylesheet" href="/styles/static.css" data-n-g="" />
+  <style id="__jsx-3823664911">
+    .container.jsx-3823664911 {
+      position: fixed;
+      width: 38px;
+      height: 38px;
+      cursor: pointer;
+      top: 1rem;
+      left: 1.25rem;
+      z-index: 2;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .meat.jsx-3823664911 {
+      position: absolute;
+      width: 28px;
+      height: 2px;
+      background: #222;
+      top: calc(50% - 2px / 2);
+      left: calc(50% - 28px / 2);
+      -webkit-transition: all 150ms ease-in;
+      transition: all 150ms ease-in;
+    }
+
+    .meat-1.jsx-3823664911 {
+      -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+
+    .meat-2.jsx-3823664911 {
+      width: calc(28px - 6px);
+    }
+
+    .meat-3.jsx-3823664911 {
+      -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+
+    .active.jsx-3823664911 .meat-1.jsx-3823664911 {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    .active.jsx-3823664911 .meat-2.jsx-3823664911 {
+      opacity: 0;
+    }
+
+    .active.jsx-3823664911 .meat-3.jsx-3823664911 {
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+
+    @media (min-width:769px) {
+      .container.jsx-3823664911 {
+        display: none;
+      }
+    }
+  </style>
+  <style id="__jsx-298760620">
+    .container.jsx-298760620 {
+      width: 0;
+    }
+
+    ul.jsx-298760620 {
+      opacity: 0;
+      width: 100%;
+      height: 100vh;
+      text-align: right;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      background-color: #fff;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      z-index: 1;
+      -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+      transform: translateY(100%);
+      -webkit-transition: opacity 200ms;
+      transition: opacity 200ms;
+    }
+
+    .active.jsx-298760620 ul.jsx-298760620 {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+    li.jsx-298760620 {
+      margin-bottom: 1.75rem;
+      font-size: 2rem;
+      padding: 0 1.5rem 0 0;
+    }
+
+    li.jsx-298760620:last-child {
+      margin-bottom: 0;
+    }
+
+    .active.jsx-298760620 {
+      color: #222;
+    }
+
+    @media (min-width:769px) {
+      .container.jsx-298760620 {
+        width: 7rem;
+        display: block;
+      }
+
+      ul.jsx-298760620 {
+        opacity: 1;
+        width: 7rem;
+        top: auto;
+        display: block;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+      }
+
+      li.jsx-298760620 {
+        font-size: 1rem;
+        padding: 0;
+      }
+    }
+  </style>
+  <style id="__jsx-255066894">
+    a.jsx-255066894 {
+      display: inline-block;
+    }
+
+    a.jsx-255066894:not(:last-child) {
+      margin-right: 2em;
+    }
+  </style>
+  <style id="__jsx-194595241">
+    .container.jsx-194595241 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 0 1.5rem;
+    }
+
+    h1.jsx-194595241 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    h2.jsx-194595241 {
+      font-size: 1.75rem;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+
+    .fancy.jsx-194595241 {
+      color: #15847d;
+    }
+
+    .handle.jsx-194595241 {
+      display: inline-block;
+      margin-top: 0.275em;
+      color: #9b9b9b;
+      -webkit-letter-spacing: 0.05em;
+      -moz-letter-spacing: 0.05em;
+      -ms-letter-spacing: 0.05em;
+      letter-spacing: 0.05em;
+    }
+
+    @media (min-width:769px) {
+      h1.jsx-194595241 {
+        font-size: 3rem;
+      }
+
+      h2.jsx-194595241 {
+        font-size: 2.25rem;
+      }
+    }
+  </style>
+  <style id="__jsx-81406895">
+    nav.jsx-81406895 {
+      margin-right: 10px;
+    }
+
+    .root.jsx-81406895 {
+      display: block;
+      padding: 4rem 0;
+      box-sizing: border-box;
+      height: 100%;
+    }
+
+    @media (min-width:769px) {
+      .root.jsx-81406895 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="__next">
+    <div class="jsx-81406895 root">
+      <nav class="jsx-81406895">
+        <div id="navToggle" class="jsx-3823664911 container " onclick="navToggle()">
+          <div class="jsx-3823664911 meat meat-1"></div>
+          <div class="jsx-3823664911 meat meat-2"></div>
+          <div class="jsx-3823664911 meat meat-3"></div>
+        </div>
+        <div id="navToggle2" class="jsx-298760620 container ">
+          <ul class="jsx-298760620">
+            <li class="jsx-298760620"><a class="jsx-298760620 active" href="/">Home</a></li>
+            <li class="jsx-298760620"><a class="jsx-298760620 " href="/posts">Blog</a></li>
+			<li class="jsx-298760620"><a class="jsx-298760620 " href="/about.html">About</a></li>
+			<li class="jsx-298760620"><a class="jsx-298760620 " href="/privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        function navToggle() {
+          var element = document.getElementById("navToggle");
+          element.classList.toggle("active");
+          var element = document.getElementById("navToggle2");
+          element.classList.toggle("active");
+        }
+      </script>
+      <main class="jsx-81406895">
+        <div class="jsx-194595241 container">
+          <div class="jsx-194595241">
+	  <div class="page-divider"></div>
+            <h1 class="jsx-194595241">About <span class="jsx-194595241 fancy">Teknosia</span></h1><span
+              class="jsx-194595241 handle">Tentang Kami</span>
+
+            <p class="jsx-194595241">Teknosia merupakan tempat Anda beristirahat sejenak dari penatnya kehidupan di era
+              digital. Kami rangkum tulisan terbaik dan mencerahkan sebagai sumber informasi perihal tutorial dan
+              penggunaan aplikasi terkini.</p>
+            <p>Seiring dengan massive nya perkembangan teknologi, kamu menyadari mungkin ada beberapa panduan yang
+              kurang akurat, oleh karenanya, kami selalu menanti kontribusi serta kritik dan saran Anda untuk kemajuan
+              Blog Teknosia.</p>
+
+            <p>Untuk menghubungi tim kami, Anda dapat mengirimkan surat elektronik ke alamat
+              teknosia.netlify[at]gmail.com.</p><br /><br />
+
+            <p class="jsx-3618008669">
+              <div class="jsx-3618008669"><a href="/privacy.html" class="jsx-3618008669">Privacy</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;<a href="/about.html" class="jsx-3618008669">About</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;<a href="/terms.html" class="jsx-3618008669">Terms</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;<a href="/disclaimer.html"
+                  class="jsx-3618008669">Disclaimer</a><br /><br />© 2022 - Teknosia
+            </p>
+          </div>
+
+          <style>
+            .jsx-3618008669 {
+              font-size: 0.75rem;
+            }
+			p {
+			  line-height:22pt;
+			}
+			@media only screen and (min-width: 768px) {
+			.page-divider {
+			height: 100px;
+			}
+			}
+          </style>
+
+        </div>
+    </div>
+  </div>
+  </main>
+  </div>
+  </div>
+</body>
+
+</html>
