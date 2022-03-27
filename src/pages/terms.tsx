@@ -22,7 +22,7 @@ export default function Index() {
 
           <p></p>
 
-          <p class="jsx-194595241">
+          <p>
 			Terimakasih Atas Kunjungan Anda, Teknosia Blog adalah media blog edukasi yang membahas perkembangan teknologi berbasis aplikasi serta tutorial terkini. Artikel yang ditulis dalam artikel blog ini diambil dari berbagai sumber, baik online maupun offline.</p><p>
 
 Beberapa artikel mungkin ditulis ulang dari sumber lain dengan tata bahasa yang berbeda.
