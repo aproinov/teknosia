@@ -9,7 +9,7 @@ const base_url = 'https://teknosia.netlify.app/';
 
 const feed = new RSS({
   title: 'Teknosia Blog',
-  description: 'Personal Blog perihal Teknologi dan Aplikasi Terkini',
+  description: 'Mengulas beragam aplikasi dan tutorial sesuai trend saat ini',
   feed_url: base_url + `rss.xml`,
   site_url: base_url ,
   author: 'Teknosia',
