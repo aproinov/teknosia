@@ -22,11 +22,10 @@ export default function Index() {
 
           <p></p>
 
-          <p>
-			Terimakasih Atas Kunjungan Anda, Teknosia Blog adalah media blog edukasi yang membahas perkembangan teknologi berbasis aplikasi serta tutorial terkini. Artikel yang ditulis dalam artikel blog ini diambil dari berbagai sumber, baik online maupun offline.</p><p>
+          <p>Terimakasih Atas Kunjungan Anda, Teknosia Blog adalah media blog edukasi yang membahas perkembangan teknologi berbasis aplikasi serta tutorial terkini. Artikel yang ditulis dalam artikel blog ini diambil dari berbagai sumber, baik online maupun offline.</p><p>
 
 Beberapa artikel mungkin ditulis ulang dari sumber lain dengan tata bahasa yang berbeda.
-Dengan mengunjungi blog Teknosia Blog, berarti Anda setuju dengan ketentuan berikut ini:</p><p>
+Dengan mengunjungi blog Teknosia Blog, berarti Anda setuju dengan ketentuan berikut ini:</p>
 
 1. Anda setuju untuk tidak menyalin (COPAS) artikel yang ada di dalam blog Teknosia Blog dengan tujuan untuk ditulis ulang pada situs lain tanpa seijin dari pemilik blog ini.<br />
 2. Anda setuju untuk tidak memperjual belikan, atau mengklaim isi dari situs ini.<br />
