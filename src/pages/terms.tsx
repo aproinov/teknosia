@@ -22,8 +22,20 @@ export default function Index() {
 
           <p></p>
 
-          <p>Untuk menghubungi tim kami, Anda dapat mengirimkan surat elektronik ke alamat
-            teknosia.netlify[at]gmail.com.</p>
+          <p class="jsx-194595241">
+			Terimakasih Atas Kunjungan Anda, Teknosia Blog adalah media blog edukasi yang membahas perkembangan teknologi berbasis aplikasi serta tutorial terkini. Artikel yang ditulis dalam artikel blog ini diambil dari berbagai sumber, baik online maupun offline.</p><p>
+
+Beberapa artikel mungkin ditulis ulang dari sumber lain dengan tata bahasa yang berbeda.
+Dengan mengunjungi blog Teknosia Blog, berarti Anda setuju dengan ketentuan berikut ini:</p><p>
+
+1. Anda setuju untuk tidak menyalin (COPAS) artikel yang ada di dalam blog Teknosia Blog dengan tujuan untuk ditulis ulang pada situs lain tanpa seijin dari pemilik blog ini.<br />
+2. Anda setuju untuk tidak memperjual belikan, atau mengklaim isi dari situs ini.<br />
+3. Konten gambar yang ada di Teknosia Blog adalah gambar yang bebas didistribusikan dan dimodifikasi. Jika Anda menemukan gambar milik Anda yang memiliki copyright dan dimuat di blog ini tanpa ijin, mohon menghubungi kami melalui laman kontak dengan senang hati kami akan menghapusnya.<br />
+4. Anda setuju untuk tidak melakukan tindakan yang mengganggu kenyamanan, misalnya memberikan komentar SPAM, dan tindakan lainnya yang dapat mengganggu kenyamanan Teknosia Blog dan pembacanya.<br />
+5. Anda setuju untuk tidak melakukan klik iklan yang ada di blog Teknosia Blog secara berulang-ulang.
+Pelanggaran
+
+<p><br />Jika terdapat pelanggaran TOS yang dilakukan oleh pengguna Teknosia Blog, maka kami sebagai pemilik blog berhak melakukan berbagai tindakan yang memang diperlukan, misalnya menghapus komentar SPAM, memblok IP komputer, atau tindakan lainnya.</p>
 
           <ShareList url={`/`} text={config.site_title} />
         </div>
