@@ -22,7 +22,7 @@ export default function Index() {
 
                     <p></p>
 
-                    <p class="jsx-194595241">
+                    <p>
 			Jika Anda memerlukan informasi lebih lanjut atau memiliki pertanyaan tentang disclaimer situs kami, jangan ragu untuk menghubungi kami melalui halaman kontak.</p><p>
 
 Semua informasi di website ini diterbitkan dengan itikad baik dan untuk tujuan membagikan tutorial aplikasi terkini (edukasi). Teknosia Blog tidak membuat jaminan tentang kelengkapan, keandalan dan ketepatan informasi ini. Kami tidak bertanggung jawab atas kesalahan menerjemahkan informasi dari situs ini.</p><p>
