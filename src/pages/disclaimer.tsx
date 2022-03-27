@@ -22,8 +22,26 @@ export default function Index() {
 
                     <p></p>
 
-                    <p>Untuk menghubungi tim kami, Anda dapat mengirimkan surat elektronik ke alamat
-                        teknosia.netlify[at]gmail.com.</p>
+                    <p class="jsx-194595241">
+			Jika Anda memerlukan informasi lebih lanjut atau memiliki pertanyaan tentang disclaimer situs kami, jangan ragu untuk menghubungi kami melalui halaman kontak.</p><p>
+
+Semua informasi di website ini diterbitkan dengan itikad baik dan untuk tujuan membagikan tutorial aplikasi terkini (edukasi). Teknosia Blog tidak membuat jaminan tentang kelengkapan, keandalan dan ketepatan informasi ini. Kami tidak bertanggung jawab atas kesalahan menerjemahkan informasi dari situs ini.</p><p>
+
+Jika anda menemukan kendala atau keraguan, kami berharap anda menghubungi kami melalui laman kontak. Dari website ini, Anda dapat mengunjungi situs-situs lain dengan mengikuti hyperlink ke situs eksternal tersebut.</p><p>
+
+Link eksternal tersebut tidak serta merta merupakan afiliasi kami, link tersebut dapat berubah tanpa pemberitahuan kepada kami. Dengan deikian Teknosia Blog tidak bertanggung jawab jika terdapat informasi dari link tujuan yang tidak sesuai.</p><p>
+
+Sementara itu, kami berusaha memperkaya informasi yang anda butuhkan melalu beberapa link external yang berkualitas dan berhubungan dengan apa yang sedang anda baca pada suatu halaman yang sedang anda baca.</p><p>
+
+Perlu kami beritahuan juga bahwa, ketika anda mengunjungi dan meninggakan website Teknosia Blog, mungkin ada beberapa informas yang anda tinggalkan. Lebih lengkap mengenai hal tersebut dapat andad baca pada halaman Privacy Policy</p>
+
+<strong>Persetujuan</strong>
+<p>Dengan menggunakan website kami, Anda dengan ini menyetujui disclaimer kami dan setuju dengan ketentuan-ketentuannya.</p>
+
+<p>Tim Redaksi Teknosia Blog</p>
+
+<strong>Pembaharuan</strong>
+<p>Situs disclaimer ini terakhir diperbaharui pada: Sabtu, 26 Maret 2022</p>
 
                     <ShareList url={`/`} text={config.site_title} />
                 </div>
