@@ -40,7 +40,7 @@ fs.readdirSync(blogPostDir)
 
 const xml = feed.xml();
 
-console.log( path.resolve(__dirname, 'public') + '/rss.xml' );
+console.log( path.resolve(__dirname, 'dist') + '/rss.xml' );
 console.log(xml);
 
-fs.writeFileSync(path.resolve(__dirname, 'public') + '/rss.xml', xml);
+fs.writeFileSync(path.resolve(__dirname, 'dist') + '/rss.xml', xml);
