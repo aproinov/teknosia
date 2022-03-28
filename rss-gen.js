@@ -32,7 +32,7 @@ fs.readdirSync(blogPostDir)
     feed.item({
       title,
       description,
-      url: base_url + `posts/${fileName.replace('.md', '')}`,
+      url: base_url + `posts/${fileName.replace('.mdx', '')}`,
       // author,
       date,
     });
