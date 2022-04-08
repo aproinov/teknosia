@@ -19,6 +19,8 @@ export default function Layout({ children }: Props) {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
           crossOrigin="() => { anonymous }" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3141717106817809"
+     crossorigin="anonymous"></script>
       </Head>
       <nav>
         <Navigation />
