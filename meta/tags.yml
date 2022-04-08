@@ -5,3 +5,5 @@ tags:
     name: kripto
   - slug: game
     name: game
+  - slug: review
+    name: review
